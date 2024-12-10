@@ -114,9 +114,9 @@ void main_thread(HMODULE hModule)
     }
 
     // hook them
-    g_hookShowWindow = safetyhook::create_inline(reinterpret_cast<void*>(show_window_fn), reinterpret_cast<void*>(hooked_ShowWindow)); //safetyhook::create_inline(show_window_fn, hooked_ShowWindow);
-    g_hookAnimateWindow = safetyhook::create_inline(reinterpret_cast<void*>(animate_window_fn), reinterpret_cast<void*>(hooked_AnimateWindow)); //safetyhook::create_inline(animate_window_fn, hooked_AnimateWindow);
-    g_hookIsWindowVisible = safetyhook::create_inline(reinterpret_cast<void*>(is_window_visible_fn), reinterpret_cast<void*>(hooked_IsWindowVisible)); //safetyhook::create_inline(is_window_visible_fn, hooked_IsWindowVisible);
+    g_hookShowWindow = safetyhook::create_inline(show_window_fn, hooked_ShowWindow);
+    g_hookAnimateWindow = safetyhook::create_inline(animate_window_fn, hooked_AnimateWindow);
+    g_hookIsWindowVisible = safetyhook::create_inline(is_window_visible_fn, hooked_IsWindowVisible);
 
     while (!g_unloading) {
         Sleep(3000);
