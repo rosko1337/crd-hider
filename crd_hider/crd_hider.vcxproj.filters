@@ -4,15 +4,30 @@
     <Filter Include="main">
       <UniqueIdentifier>{fcad4fb4-7250-47f3-bfda-881ceb5f498b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="safetyhook">
+      <UniqueIdentifier>{bb26d35a-1b55-48b8-9d8e-38ea5a888047}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="safetyhook\safetyhook.cpp">
+      <Filter>safetyhook</Filter>
+    </ClCompile>
+    <ClCompile Include="safetyhook\Zydis.c">
+      <Filter>safetyhook</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="safetyhook\safetyhook.hpp">
+      <Filter>safetyhook</Filter>
+    </ClInclude>
+    <ClInclude Include="safetyhook\Zydis.h">
+      <Filter>safetyhook</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
