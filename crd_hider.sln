@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crd_hider", "crd_hider\crd_hider.vcxproj", "{9D6A0B87-93E6-482D-BB63-A384BD3B4B87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crd_hider_app", "crd_hider_app\crd_hider_app.vcxproj", "{92281D5E-22FB-4BB6-BE13-2BB21073D7E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D6A0B87-93E6-482D-BB63-A384BD3B4B87}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D6A0B87-93E6-482D-BB63-A384BD3B4B87}.Debug|x86.Build.0 = Debug|Win32
+		{9D6A0B87-93E6-482D-BB63-A384BD3B4B87}.Release|x86.ActiveCfg = Release|Win32
+		{9D6A0B87-93E6-482D-BB63-A384BD3B4B87}.Release|x86.Build.0 = Release|Win32
+		{92281D5E-22FB-4BB6-BE13-2BB21073D7E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{92281D5E-22FB-4BB6-BE13-2BB21073D7E8}.Debug|x86.Build.0 = Debug|Win32
+		{92281D5E-22FB-4BB6-BE13-2BB21073D7E8}.Release|x86.ActiveCfg = Release|Win32
+		{92281D5E-22FB-4BB6-BE13-2BB21073D7E8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0738DDD-A4B3-43B4-9BED-7BB82B1CD383}
+	EndGlobalSection
+EndGlobal

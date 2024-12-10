@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="crd_hider_app">
+      <UniqueIdentifier>{47959597-c564-422c-ad7f-ca5fcceba9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crd_hider_app\functions">
+      <UniqueIdentifier>{bc71aabe-059e-4365-b5b4-9e858a12e065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crd_hider_app\resources">
+      <UniqueIdentifier>{d57c6650-4995-4bb6-aec8-ab1ccd1fd3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crd_hider_app\tray">
+      <UniqueIdentifier>{c9be1559-6cc6-4764-9bc8-d7930a429456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crd_hider_app\main">
+      <UniqueIdentifier>{d455eb91-7dbb-4cee-90f8-4a3de102577e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="functions.c">
+      <Filter>crd_hider_app\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>crd_hider_app\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tray.h">
+      <Filter>crd_hider_app\tray</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>crd_hider_app\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>crd_hider_app\main</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>crd_hider_app\resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>crd_hider_app\resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>crd_hider_app\resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
